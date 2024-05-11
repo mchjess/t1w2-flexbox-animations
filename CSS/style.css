@@ -1,5 +1,6 @@
 * {
     --blue-light: #2F2963;
+    --orangeish: #EF946C;
     color: #E7E9CF
 }
 
@@ -14,4 +15,44 @@ body {
     text-align: center;
     /* Align items is vertical*/
     align-items: center;
+}
+
+header {
+    
+    display: flex;
+    flex-direction: column;
+    /* Text align is horizontal*/
+    text-align: center;
+    /* Align items is vertical*/
+    align-items: center;
+    
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-color: var(--orangeish);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid  #E7E9CF 5px;
+    border-radius: 50%;
+}
+
+.logo p {
+    background-color: #2F2963;
+    padding: 1.5em;
+    border-radius: 20%;
+    color: var(var(--orangeish))
+}
+
+nav a {
+
+    text-decoration: none;
+    background-color: var(--orangeish)
+    color: var(var(--blue-light))
+    padding: 0.5rem,
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
