@@ -50,8 +50,8 @@ header {
 nav a {
 
     text-decoration: none;
-    background-color: var(--orangeish)
-    color: var(var(--blue-light))
+    background-color: var(--orangeish);
+    color: var(var(--blue-light));
     padding: 0.5rem,
     margin-left: 0.5rem;
     margin-right: 0.5rem;
