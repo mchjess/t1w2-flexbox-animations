@@ -44,7 +44,7 @@ header {
     background-color: #2F2963;
     padding: 1.5em;
     border-radius: 20%;
-    color: var(var(--orangeish))
+    color: var(var(--orangeish));
 }
 
 nav a {
@@ -52,7 +52,7 @@ nav a {
     text-decoration: none;
     background-color: var(--orangeish);
     color: var(var(--blue-light));
-    padding: 0.5rem,
+    padding: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
