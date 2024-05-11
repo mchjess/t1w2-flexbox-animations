@@ -42,7 +42,7 @@ header {
 
 .logo p {
     background-color: #2F2963;
-    padding: 1.5em;
+    padding: 1em;
     border-radius: 20%;
     color: var(var(--orangeish));
 }
@@ -56,3 +56,25 @@ nav a {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
+
+.training-option {
+    margin-top: 15dvw;
+    background-color: var(--orangeish);
+    padding: 2rem;
+    border-radius: 5%;
+    flex-direction: row;
+}
+
+.training-option img {
+    width: 65dvw;
+    border-radius: 4%;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        display: row;
+        flex-direction: wrap;
+        justify-content: space-between;
+    }
+};
+    
